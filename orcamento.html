@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Orçamento</title>
+  <link rel="icon"   href="logo.png">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<div id='containerorcamento'>
+<div class='cabecalho1'></div>
+<div class='cabecalho2'>
+<a href='index.html'>• Home</a>
+</div>
+
+<div id='conteudoorc'>
+<h2> •Faça Seu Orçamento• </h2>
+
+<form method="post" action='planet.py' class="formorc">
+<p class="porc">• Nome:</p><input type='text'size=35 placeholder='Nome Completo' maxlength=40 name='nome' required />
+
+ <p class="porc">• Email:</p><input type="email" size=35 name='email' placeholder='E-mail' maxlength='35'>
+
+<p class="porc">• Telefone:</p><input type='tel' size=35 name='telefone' placeholder='Telefone'>
+
+<p class="porc">• Selecione o Carro:</p><select name='carro'>
+<option selected=""value="">Escolha</option>
+<option value="Civic"> Honda Civic</option>
+<option value="Jeep Compass"> Jeep Compass</option>
+<option value="Jeep Renegade"> Jeep Renegade</option>
+<option value="Toyota Corolla"> Toyota Corolla</option>
+<option value="Renault Kwid"> Renault Kwid</option>
+<option value="Hyundai HB20"> Hyundai HB20</option>
+</select>
+
+<p class="porc">• Selecione a Forma de Pagamento:</p><select name='pagamento'>
+<option selected=""value="">Escolha</option>
+<option value="Niteroi">Á Vista</option>
+<option value="SaoGonçalo">Financiamento</option>
+</select>
+
+<br>
+<br>
+<input type= 'submit'></input>
+<input type= 'reset' value='Limpar'></input>
+</form>
+</div>  
+
+</body>
+
+</html>

@@ -1,0 +1,343 @@
+body{
+    background: white;
+    }
+    
+    /*Principal*/
+    #container{
+    background: red;
+    width:1200px;
+    height:750px;
+    margin:auto;
+    }
+    
+    .cabecalho1{
+    background-image: url('cabecalho.jpeg');
+    background-repeat: no-repeat;
+    width:1200;
+    height: 80px;
+    }
+    
+    .cabecalho2{
+    text-align: center;
+    padding:16px 16px 16px;
+    background-color: red;
+    }
+    
+    .cabecalho2 a{
+    padding:16px 16px 16px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    }
+    
+    .cabecalho2 a:hover{
+    padding:16px 16px 16px;
+    color:white;
+    font-size: 18px;
+    
+    }
+    
+    .banner1{
+    width:1200px;
+      height: 500px;
+      background: black;
+      animation-name:banner1;
+      animation-duration: 10s;             
+      animation-iteration-count: infinite;  
+    }
+    
+    @keyframes banner1{
+      0%{background-image: url('civic.jpeg');background-repeat: no-repeat;}
+      20%{background-image: url('compass.jpeg');background-repeat: no-repeat;}
+      40%{background-image: url('corola.jpeg'); background-repeat: no-repeat;}
+      60%{background-image: url('hb20.jpeg');background-repeat: no-repeat;}
+      80%{background-image: url('kwid.jpeg');background-repeat: no-repeat;}
+      100%{background-image: url('renegade.jpeg'); background-repeat: no-repeat;} 
+    }
+    
+    .links{
+    text-align: center;
+    margin:auto;
+    margin-top: 30px;
+    font-size: 25px;
+    }
+    
+    .civic{
+    background: black;
+    color: red;
+    text-decoration: none;
+    border: 3px solid red;
+    border-radius: 1px;
+    background-size: cover;
+    padding: 10px;
+    background-repeat: no-repeat;
+    margin: auto;
+    }
+    
+    .civic:hover{
+    background-image: url('civic.jpeg');
+    color:white;
+    }
+    
+    .compass{
+    background: black;
+    color: red;
+    padding: 10px;
+    text-decoration: none;
+    border: 3px solid red;
+    border-radius: 1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    .compass:hover{
+    background-image: url('compass.jpeg');
+    color:white;
+    }
+    
+    .corola{
+    background: black;
+    color: red;
+    padding: 10px;
+    text-decoration: none;
+    border: 3px solid red;
+    border-radius: 1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    .corola:hover{
+    background-image: url('corola.jpeg');
+    color:white;
+    }
+    
+    .hb20{
+    background: black;
+    color: red;
+    padding: 10px;
+    text-decoration: none;
+    border: 3px solid red;
+    border-radius: 1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    .hb20:hover{
+    background-image: url('hb20.jpeg');
+    color:white;
+    }
+    
+    .kwid{
+    background: black;
+    color: red;
+    padding: 10px;
+    text-decoration: none;
+    border: 3px solid red;
+    border-radius: 1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    .kwid:hover{
+    background-image: url('kwid.jpeg');
+    color:white;
+    }
+    
+    .renegade{
+    background: black;
+    color: red;
+    padding: 10px;
+    text-decoration: none;
+    border: 3px solid red;
+    border-radius: 1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    .renegade:hover{
+    background-image: url('renegade.jpeg');
+    color:white;
+    }
+    
+    .rodape{
+    background-image: url('rodape.jpeg');
+    background-repeat: no-repeat;
+    width:1200;
+    height: 90px;
+    margin: auto;
+    margin-top:30px;
+    text-align: center;
+    position: bottom;
+    background-color: white;
+    }
+    
+    #linkwhats{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16pt;
+    }
+    
+    /*Civic*/
+    
+    #containercivic{
+    background: red;
+    width:1200px;
+    height:1000px;
+    margin:auto;
+    }
+    
+    .bannercivic{
+    width:1200px;
+    height: 500px;
+    background-image: url('civic.jpeg');
+    background-repeat: no-repeat;
+    /*background: black;
+    animation-name:bannercivic;
+    animation-duration: 6s;             
+    animation-iteration-count: infinite;*/
+    }
+    /*
+    @keyframes bannercivic{
+    0%{background-image: url('civic.jpg');background-repeat: no-repeat;}
+    25%{background-image: url('civic2.jpg');background-repeat: no-repeat;}
+    50%{background-image: url('civic3.jpg'); background-repeat: no-repeat;}
+    100%{background-image: url('civic4.jpg'); background-repeat: no-repeat;} 
+    }
+    */
+    
+    h2{
+    text-align: center;
+    color: white;
+    }
+    
+    h3{
+    margin-left: 20px;
+    text-align: left;
+    color: black;
+    }
+    
+    h4{
+    margin-left: 20px;
+    text-align: left;
+    color: black;
+    }
+    
+    .botaoorc{
+    margin-top: auto;
+    background: white;
+    color: red;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    }
+    
+    .botaoorc:hover{
+    background: red;
+    border: 3px solid black;
+    color: white;
+    }
+    
+    /*Orçamento*/
+    
+    .porc{
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 15pt;
+    }
+    
+    .formorc{
+    margin-left: 20px;
+    }
+    
+    .porc1{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 15pt;
+    }
+    
+    #containerorcamento{
+    background: red;
+    width:1200px;
+    height:600px;
+    margin:auto;
+    }
+    
+    /*Compass*/
+    #containercompass{
+    background: red;
+    width:1200px;
+    height:800px;
+    margin:auto;
+    }
+    
+    .bannercompass{
+    width:1200px;
+    height: 500px;
+    background-image: url('compass.jpeg');
+    background-repeat: no-repeat;
+    }
+    
+    /*Cololla*/
+    #containercorolla{
+    background: red;
+    width:1200px;
+    height:800px;
+    margin:auto;
+    }
+    
+    .bannercorolla{
+    width:1200px;
+    height: 500px;
+    background-image: url('corola.jpeg');
+    background-repeat: no-repeat;
+    }
+    
+    /*Hb20*/
+    #containerhb20{
+    background: red;
+    width:1200px;
+    height:800px;
+    margin:auto;
+    }
+    
+    .bannerhb20{
+    width:1200px;
+    height: 500px;
+    background-image: url('hb20.jpeg');
+    background-repeat: no-repeat;
+    }
+    
+    /*Kwid*/
+    #containerkwid{
+    background: red;
+    width:1200px;
+    height:800px;
+    margin:auto;
+    }
+    
+    .bannerkwid{
+    width:1200px;
+    height: 500px;
+    background-image: url('kwid.jpeg');
+    background-repeat: no-repeat;
+    }
+    
+    /*Renegade*/
+    #containerrenegade{
+    background: red;
+    width:1200px;
+    height:800px;
+    margin:auto;
+    }
+    
+    .bannerrenegade{
+    width:1200px;
+    height: 500px;
+    background-image: url('renegade.jpeg');
+    background-repeat: no-repeat;
+    }
